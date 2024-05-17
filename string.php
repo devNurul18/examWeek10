@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 $strings = ["Hello", "World", "PHP", "Programming"];
 
@@ -26,4 +26,5 @@ $vowelsCount4 = countVowels($strings[3]);
 echo "original string: " .$strings[0] .", vowels: " .$vowelsCount." Reversed String:" . strrev($strings[0]) ."\n"; 
 echo "original string: " .$strings[1] .", vowels: " .$vowelsCount2." Reversed String:" . strrev($strings[1]) ."\n"; 
 echo "original string: " .$strings[2] .", vowels: " .$vowelsCount3." Reversed String:" . strrev($strings[2]) ."\n"; 
-echo "original string: " .$strings[2] .", vowels: " .$vowelsCount4." Reversed String:" . strrev($strings[3]) ."\n"; 
+echo "original string: " .$strings[2] .", vowels: " .$vowelsCount4." Reversed String:" . strrev($strings[3]) ."\n";
+
