@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 
 $strings = ["Hello", "World", "PHP", "Programming"];
 
@@ -6,18 +6,16 @@ function countVowels($str)
 {
     $str = strtolower($str); 
     $vowelCount = 0; 
-  
+
     for ($i = 0; $i < strlen($str); $i++) { 
         if (in_array($str[$i], ["a", "e", "i", "o", "u"])) { 
             $vowelCount++; 
         } 
     } 
-  
     return $vowelCount; 
 } 
   
-// Driver code 
-// $str = $strings[1]; 
+
 $vowelsCount = countVowels($strings[0]); 
 $vowelsCount2 = countVowels($strings[1]); 
 $vowelsCount3 = countVowels($strings[2]); 
