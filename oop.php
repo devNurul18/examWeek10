@@ -109,8 +109,8 @@
    $Member2 = new Member("Jane Smith");
 
 
-   print_r ($Member1 ->borrowBook($Book1));
-   print_r ($Member2 ->borrowBook($Book2));
+   $Member1 ->borrowBook($Book1);
+   $Member2 ->borrowBook($Book2);
 
 
    print_r ("Available Copies of '{$Book1 ->getTitle()}': {$Book1 ->getAvailableCopies()} \n");
